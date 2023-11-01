@@ -2004,6 +2004,7 @@ GameObject:
   m_Component:
   - component: {fileID: 2051095986}
   - component: {fileID: 2051095988}
+  - component: {fileID: 2051095989}
   m_Layer: 0
   m_Name: UIController
   m_TagString: Untagged
@@ -2040,6 +2041,21 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   startCanvas: {fileID: 199922668}
   loginCanvas: {fileID: 1577101303}
+--- !u!114 &2051095989
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2051095985}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: cf40839a19a5d684ca2492b72b6ddfab, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  inputFields:
+  - {fileID: 1692920778}
+  - {fileID: 1875949824}
 --- !u!1 &2102692724
 GameObject:
   m_ObjectHideFlags: 0
