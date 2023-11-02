@@ -1,10 +1,13 @@
 using UnityEngine;
 using UnityEngine.UI;
+using UnityEngine.SceneManagement;
 
 public class UIManager : MonoBehaviour
 {
     public GameObject startCanvas;
     public GameObject loginCanvas;
+    public GameObject canvasToClose;
+    public string targetScenename;
 
     void Start()
     {
@@ -18,6 +21,16 @@ public class UIManager : MonoBehaviour
 
         startCanvas.SetActive(false);
         loginCanvas.SetActive(true);
+    }
+
+    public void OnClickLoginbutton()
+    {
+        SceneManager.LoadScene(targetScenename);
+    }
+
+    public void OnExitButtonClicked()
+    {
+        canvasToClose.SetActive(false);
     }
 
 
