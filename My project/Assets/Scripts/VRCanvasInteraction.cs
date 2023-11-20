@@ -17,6 +17,7 @@ public class VRCanvasInteraction : MonoBehaviour
         pantsPanel.SetActive(false);
         dressPanel.SetActive(true);
         ShowRoomPanel.SetActive(false);
+        chatImage.SetActive(false); 
     }
 
     public void OnTopPanelButtonClick()
